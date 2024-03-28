@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_app"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Ghép đôi thiết bị"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_main"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="Chưa có thiết bị nào kết nối"
+        android:textSize="@dimen/text_description" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="7dp"
+            android:text="Kết nối thiết bị"
+
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_description" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginBottom="7dp"
+                android:text="\tCách 1: Kết nối Wifi thiết bị “CafoA3_***”"
+
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@color/gray"
+
+                android:padding="5dp"
+                android:text="Tìm thiết bị"
+
+                android:textSize="@dimen/button_text_main" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginBottom="7dp"
+                android:text="\tCách 2: Quét mã QR thiết bị"
+
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@color/gray"
+
+                android:padding="5dp"
+                android:text="Quét mã QR"
+
+
+                android:textSize="@dimen/button_text_main" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginBottom="7dp"
+                android:text="Chuẩn bị ghép đôi"
+                android:textColor="@color/black"
+
+                android:textSize="@dimen/text_description" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/gray"
+
+                android:padding="5dp"
+                android:text="CafoA3_***"
+
+                android:textSize="@dimen/button_text_main" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_custom"
+
+        android:onClick="connectingActivity"
+        android:text="Bắt đầu ghép đôi"
+
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_main" />
+</LinearLayout>

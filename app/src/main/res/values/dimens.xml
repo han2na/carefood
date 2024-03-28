@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_app">20dp</dimen>
+    <dimen name="button_text_main">20sp</dimen>
+    <dimen name="button_padding_main">7dp</dimen>
+    <dimen name="text_main">28sp</dimen>
+    <dimen name="text_description">18sp</dimen>
+    <dimen name="text_description_1">16sp</dimen>
+    <dimen name="text_description_2">14sp</dimen>
+    <dimen name="editext_margin">5dp</dimen>
+</resources>

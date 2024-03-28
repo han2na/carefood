@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Carefood</string>
+    <string name="start_main">Chào mừng đến với\nCarefood</string>
+    <string name="start_description">Đồng hành cùng bạn trong việc quản lý\năn uống, cải thiện sức khỏe</string>
+    <string name="login">Đăng nhập</string>
+    <string name="register">Tạo tài khoản</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Home Fragment</string>
+</resources>

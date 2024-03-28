@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_app"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Chào buổi sáng"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_main"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ghép đối thiết bị CafoA3 để thực hiện \nđo nhịp tim và nồng độ oxi trong máu"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_description" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:text="Tìm hiểu thêm về CafoA3"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/text_description_1" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/carefood" />
+
+    <Button
+        android:id="@+id/btnConnectDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_custom"
+        android:onClick="findingDevice"
+        android:text="Tìm kiếm thiết bị"
+
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_main" />
+</LinearLayout>

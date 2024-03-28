@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_app"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Kết quả đo"
+        android:textSize="@dimen/text_main"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/g2" />
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/g1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="7dp"
+            android:text="Đánh giá sức khỏe"
+            android:textSize="@dimen/text_description"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Nhịp tim và nồng độ oxy trong máu của bạn bình thường"
+            android:textSize="@dimen/text_description_2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Một số gợi ý ăn uống"
+                android:textAlignment="textStart"
+                android:textSize="@dimen/text_description"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="navigateTab"
+                android:text="Chi tiết"
+                android:textAlignment="textEnd"
+                android:textColor="#31A062"
+                android:textSize="@dimen/text_description"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Hãy ăn nhiều rau xanh, hoa quả
+\nHạn chế thực phẩm có đường và chất béo
+\nĂn thịt gà, cá, đậu, hạt, và sữa chua ít chất béo.
+\nUống đủ nước hàng ngày
+\nHạn chế đồ uống có gas và đồ uống có đường.
+\nĂn nhỏ nhiều bữa trong ngày"
+            android:textSize="@dimen/text_description_2" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
