@@ -8,6 +8,6 @@ import android.view.WindowManager;
 public final class Const {
     public static void configStatusbar(Activity activity) {
         Window w = activity.getWindow();
-        w.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_FULLSCREEN);
+        w.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_FULLSCREEN);
     }
 }

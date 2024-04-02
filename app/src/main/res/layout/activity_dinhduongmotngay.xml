@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/plus"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="324dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/plus"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="549dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/plus"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="626dp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/plus"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <EditText
+        android:id="@+id/editTextText1"
+        android:layout_width="282dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Thức ăn"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="@+id/floatingActionButton5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Năng lượng"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="80dp"
+        android:layout_height="85dp"
+        android:text="Ăn vào
+        ...  calo"
+        android:textSize="20sp"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="78dp"
+        android:layout_height="81dp"
+        android:text="Còn lại
+        ... calo"
+        android:textSize="20sp"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carb  ...%"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Protein   ...%"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fats  ...%"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=".../...g"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=".../...g"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=".../...g"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="304dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="248dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Bữa sáng  ...Calo"
+        android:inputType="text"
+        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="251dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Bữa trưa  ...calo"
+        android:inputType="text"
+        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="251dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="Bữa tối   ...calo"
+        android:inputType="text"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="626dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_custom"
+        android:text="Thêm thực phẩm"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="684dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

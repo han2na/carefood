@@ -8,5 +8,6 @@
     <style name="Theme.Carefood" parent="Base.Theme.Carefood">
         <item name="android:fontFamily">arial</item>
         <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/black</item>
     </style>
 </resources>

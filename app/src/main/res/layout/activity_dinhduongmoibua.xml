@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="396dp"
+        android:layout_height="251dp"
+        android:background="#C9F3CB"
+        android:backgroundTint="#93D595"
+        android:text="          Đã ăn ... Calo"
+        android:textSize="32sp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="277dp"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Bữa sáng"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText1"
+        android:layout_width="252dp"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Đã thêm món"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="250dp"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Năng lượng"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="...calories"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày...tháng...năm"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnbacktomoibua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:contentDescription="TODO"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="305dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Bữa sáng  ...Calo"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="303dp"
+        android:layout_height="62dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Bữa trưa  ...calo"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="302dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Bữa tối   ...calo"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton5"
+        android:layout_width="59dp"
+        android:layout_height="55dp"
+        android:clickable="true"
+        android:contentDescription="TODO"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton6"
+        android:layout_width="59dp"
+        android:layout_height="55dp"
+        android:clickable="true"
+        android:contentDescription="TODO"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton7"
+        android:layout_width="59dp"
+        android:layout_height="55dp"
+        android:clickable="true"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:text="Thêm món ăn"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>

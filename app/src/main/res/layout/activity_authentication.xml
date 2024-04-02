@@ -104,7 +104,7 @@
             app:pinHeight="50dp"
             app:pinLength="4"
             app:pinWidth="50dp"
-            app:textSize="@dimen/text_description_2" />
+            app:textSize="10sp" />
     </LinearLayout>
 
     <LinearLayout

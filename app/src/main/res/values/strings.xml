@@ -4,6 +4,5 @@
     <string name="start_description">Đồng hành cùng bạn trong việc quản lý\năn uống, cải thiện sức khỏe</string>
     <string name="login">Đăng nhập</string>
     <string name="register">Tạo tài khoản</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Home Fragment</string>
+    <string name="add">Add</string>
 </resources>

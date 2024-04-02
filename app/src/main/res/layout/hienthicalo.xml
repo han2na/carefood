@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:backgroundTint="#A8FFFFFF"
+    android:backgroundTintMode="src_in"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="348dp"
+        android:layout_height="49dp"
+        android:layout_gravity="right"
+        android:hint="Tìm kiếm thức ăn"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+
+        android:layout_width="412dp"
+        android:layout_height="56dp"
+        android:background="#77FFFFFF"
+        android:backgroundTint="#B3D8B5"
+        tools:ignore="MissingConstraints" />
+
+    <ProgressBar
+
+        android:id="@+id/progressBar2"
+        android:layout_width="416dp"
+        android:layout_height="237dp"
+        android:background="#D6EDD7"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="37dp"
+        android:layout_height="65dp"
+
+        android:text="0"
+        android:textCursorDrawable="@color/white"
+        android:textSize="50sp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="50dp"
+        android:layout_height="33dp"
+
+        android:text="Calo"
+        android:textCursorDrawable="@color/white"
+        android:textSize="24sp"
+        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/btnnhapdoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#4CAF50"
+        android:bufferType="normal"
+        android:text="Nhập đồ ăn và thức uống"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="#4CAF50"
+        android:textColorLink="@android:color/holo_blue_bright"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dinh dưỡng"
+        android:textSize="24sp"
+
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:clickable="true"
+        android:src="@drawable/plus" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="303dp"
+        android:layout_height="35dp"
+        android:text="Thức ăn"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="311dp"
+        android:layout_height="66dp"
+        android:text="calo"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

@@ -1,16 +1,11 @@
 package com.nhom12.carefood.ui.activity;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.MenuItem;
+
+import androidx.fragment.app.Fragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.navigation.NavigationBarView;
 import com.nhom12.carefood.R;
 import com.nhom12.carefood.ui.fragment.ChartFragment;
 import com.nhom12.carefood.ui.fragment.HeartFragment;
@@ -26,10 +21,12 @@ public class HomeActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        bottomNavigationView = findViewById(R.id.bottom_navigation);
-        bottomNavigationView.setSelectedItemId(R.id.navigation_home);
 
         getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, new HomeFragment()).commit();
+
+        bottomNavigationView = findViewById(R.id.bottom_nav);
+        bottomNavigationView.setSelectedItemId(R.id.navigation_home);
+
 
         bottomNavigationView.setOnItemSelectedListener(item -> {
             Fragment selected_Fragment = null;

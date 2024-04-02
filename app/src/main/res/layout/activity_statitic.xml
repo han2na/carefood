@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Statitic">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thống kê Calo"
+            android:textAlignment="center"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/calo_chart"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            >
+
+
+        </com.github.mikephil.charting.charts.LineChart>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lượng calo trung bình trong 4 ngày gần nhất là :\nTỉ lệ hoàn thành mục tiêu là: \nLời khuyên: "/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thống kê dinh dưỡng"
+            android:textAlignment="center"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/nutrition_chart"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+        </com.github.mikephil.charting.charts.PieChart>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lượng calo trung bình trong 4 ngày gần nhất là :\nTỉ lệ hoàn thành mục tiêu là: \nLời khuyên: "/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thống kê BMI"
+            android:textAlignment="center"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/Bmi_chart"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            >
+
+
+        </com.github.mikephil.charting.charts.LineChart>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lượng calo trung bình trong 4 ngày gần nhất là :\nTỉ lệ hoàn thành mục tiêu là: \nLời khuyên: "/>
+    </LinearLayout>
+
+</LinearLayout>

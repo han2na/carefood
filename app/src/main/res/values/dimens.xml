@@ -8,4 +8,7 @@
     <dimen name="text_description_1">16sp</dimen>
     <dimen name="text_description_2">14sp</dimen>
     <dimen name="editext_margin">5dp</dimen>
+    <dimen name="w_item">160dp</dimen>
+    <dimen name="h_item">130dp</dimen>
+    <dimen name="m_item">10dp</dimen>
 </resources>

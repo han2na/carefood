@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnbacktomoibua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:clickable="true"
+        android:src="@drawable/plus"
+        tools:ignore="KeyboardInaccessibleWidget,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:text="Hàm lượng dinh dưỡng mỗi khẩu phần"
+        tools:ignore="HardcodedText,LabelFor,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Năng lượng                                                            Kcal
+Protein                                                                          g
+Chất béo                                                                       g
+Carbohdrate                                                                 g
+Vitamin                                                                          g
+Chất khoáng                                                                 g
+Canxi                                                                             mg
+Sắt                                                                                 mg
+Kali                                                                                mg
+Natri                                                                              mg
+Kẽm                                                                              mg"
+        android:textSize="17sp"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>
